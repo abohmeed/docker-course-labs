@@ -1,0 +1,10 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "public.ecr.aws/nginx/nginx:stable-alpine",
+    "Update": "true"
+  },
+  "Ports": [
+    { "ContainerPort": 80 }
+  ]
+}
